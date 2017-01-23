@@ -12,7 +12,7 @@
                 </figure>
                 <nav id="menu">
                     <ul id="opcoes">
-                        <li><a href="index.php">Sobre LIBRAS</a></li>
+                        <li><a href="sobre_libras.php">Sobre LIBRAS</a></li>
                         <li><a href="index.php">Sinais</a></li>
                         <li><a href="index.php">Projetos para LIBRAS</a></li>
                     </ul>
@@ -41,11 +41,31 @@
             </figure>
         </section>
         <section id="projetos_libras">
-            <h1>PROJETOS COM LIBRAS</h1>
-            <figure>
-                <img src="" />
-                <img src="" />
-            </figure>
+            <h1>PROJETOS EM LIBRAS</h1>
+            <div>
+                <a href="http://noticias3.uea.edu.br/noticia.php?notId=38268" target="_blank">
+                    <figure>
+                        <img src="img/giullia.jpg" />
+                        <figcaption id="giullia"><h1>PROJETO GUILLIA</h1></figcaption>
+                    </figure>
+                </a>
+                <a href="https://www.handtalk.me/" target="_blank">
+                    <figure id="handtalk">
+                        <img id="handtalk" src="img/handtalk.png" />
+                        <figcaption id="handtalk_fig"><h1>APLICATIVO</h1></figcaption>
+                    </figure>
+                </a>
+            </div>
         </section>
+        <footer id="rodape">
+            <figure>
+                <a href="http://icomp.ufam.edu.br/site/" target="_blank">
+                    <img src="img/icomp.png" />
+                </a>
+                <a href="http://ufam.edu.br/" target="_blank">
+                    <img src="img/logoufam.png" />
+                </a>
+            </figure>
+        </footer>
     </body>
 </html>
