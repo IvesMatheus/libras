@@ -1,0 +1,207 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #888;
+}
+
+/***********************************CABEÇALHO***************************/
+
+header#cabecalho
+{
+    width: 100%;
+    height: 70%;
+    background-color: #FFA75E;
+    box-sizing: border-box;
+}
+
+figure#logo
+{
+    margin: 30px 0px 0px 10px;
+    padding: 0px;
+    width: 300px;
+    height: 200px;
+    float: left;
+}
+
+figure#logo img
+{
+    width: 100%;
+    height: 100%;
+}
+
+figure#logo figcaption
+{
+    margin: 0px;
+    height: 0px;
+    opacity: 0;
+}
+
+nav#menu
+{
+    float: left;
+    position: relative;
+    top: 20%;
+    left: 200px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+nav#menu ul
+{
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav#menu li
+{
+    float: left;
+    margin-right: 30px;
+    box-sizing: border-box;
+}
+
+nav#menu li:hover
+{
+    margin-right: 15px;
+}
+
+nav#menu a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    box-sizing: border-box;
+}
+
+nav#menu a:hover
+{
+    font-size: 18px;
+    position: relative;
+    left: -10px;
+}
+
+header#cabecalho h1
+{
+    float: left;
+    position: relative;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin: 0px;
+    height: 0px;
+}
+
+/**********************************************************************/
+
+/*****************************index - seções***************************/
+
+section
+{
+    width: 100%;
+    height: 50%;
+    min-height: 50%;
+    text-align: center;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+section#sobre h1
+{
+    color: black;
+    margin-bottom: 30px;
+}
+
+section#sobre p
+{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+section#exemplos
+{
+    height: 400px;
+    padding: 30px;
+    background-color: #3DBC3D;
+    /*box-sizing: border-box;*/
+}
+
+section#exemplos figure
+{
+    margin: 50px 20px 50px 20px;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+    width: 30%;
+    height: 250px;
+    background-color: white;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+}
+
+section#exemplos figcaption
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    font-size: 28px;
+    color: white;
+    font-weight: 900;
+    background-color: rgba(0,0,0,.4);
+    opacity: 0;
+    padding: 10px;
+    transition: opacity 1s;
+    box-sizing: border-box;
+}
+
+section#exemplos h1
+{
+    width: 100%;
+    position: relative;
+    top: 60px;
+    text-align: center;
+}
+
+section#exemplos figure:hover figcaption
+{
+    opacity: 1;
+}
+
+section#exemplos img
+{
+    width: 100%;
+    height: 100%;
+}
+
+section#projetos_libras
+{
+    margin-bottom: 50px;
+}
+
+section#projetos_libras h1
+{
+    color: black;
+    margin-bottom: 50px;
+}
+
+section#projetos_libras figure
+{
+    width: 95%;
+    min-width: 95%;
+    margin: 0px;
+    padding: 0px;
+}
+
+section#projetos_libras img
+{
+    box-shadow: 1px 1px 4px black;
+    width: 30%;
+    height: 100%;
+}
+
+/**********************************************************************/
