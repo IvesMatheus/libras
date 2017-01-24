@@ -14,7 +14,7 @@
             </a>
             <nav id="menu">
                 <ul id="opcoes">
-                    <li><a href="index.php">Sobre LIBRAS</a></li>
+                    <li><a href="sobre_libras.php">Sobre LIBRAS</a></li>
                     <li><a href="index.php">Sinais</a></li>
                     <li><a href="index.php">Projetos para LIBRAS</a></li>
                 </ul>
@@ -34,7 +34,14 @@
         <section class="sobre_libras">
             <h1>Como surgiu?</h1>
             <p>
-                <span class="inicio_grande">Em</span> 1855 um professor chamado Ernesto Huet (francês que ficou surdo aos 12 anos de idade) veio ao Brasil e fundou no Rio de Janeiro a primeira escola para surdos no Brasil, o Instituto de Educação de Surdos (INES) em 26 de Setembro de 1857. A língua ensinada nessa época era a língua de  
+                <span class="inicio_grande">Em</span> 1855 um professor chamado Ernesto Huet (francês que ficou surdo aos 12 anos de idade) veio ao Brasil e fundou no Rio de Janeiro a primeira escola para surdos no Brasil, o Instituto de Educação de Surdos (INES) em 26 de Setembro de 1857.<br>
+                <img id="INES" src="img/INES.jpg" /><br>
+                A língua ensinada nessa época era a oriunda da língua de sinais francesa. A LIBRAS foi formada por influencia da língua de sinais brasileira, americana e de formas de comunicação já utilizadas pelos surdos de vários locais do país. Em 1875, Flausimo José Gama, ex-aluno do Instituto Nacional dos Surdos-mudos, fez um pequeno vocabulário de sinais baseado em desenho. Objetivava mostrar os sinais brasileiros. Atualmente esta linguagem não é mais usada. Em 1910 a 1913, foi fundado a Associação dos Surdos-mudos que teve um grande desenvolvimento cultural. Em 1930 a 1947, Dr. Armando de Paiva de Lacerda, ex-Diretor do INES, proíbiu a Língua de Sinais entre os surdos. Podiam usar somente o alfabeto manual, um bloco de papel com lápis no bolso para escrever palavra e a fala. Em 1950, Ana Rimoli de Faria Doria, ex-Diretora do INES, quando assumiu o cargo, proibiu o alfabeto manual e a Língua de Sinais, implantando o método oralista. Os surdos não conseguiram adaptar-se a essa imposição do oralismo e continuaram a usar a Língua de Sinais. Apenas no ano de 2002 a língua brasileira de sinais foi oficialmente reconhecida e aceita como segunda língua oficial brasileira, através da Lei 10.436, de 24 de abril de 2002.
+            </p>
+        </section>
+        <section class="sobre_libras">
+            <h1>Como são os sinais?</h1>
+            <p>
             </p>
         </section>
         <footer id="rodape">
