@@ -15,7 +15,7 @@
             <nav id="menu">
                 <ul id="opcoes">
                     <li><a href="sobre_libras.php">Sobre LIBRAS</a></li>
-                    <li><a href="index.php">Sinais</a></li>
+                    <li><a href="sinais.php">Sinais</a></li>
                     <li><a href="index.php">Projetos para LIBRAS</a></li>
                 </ul>
             </nav>
