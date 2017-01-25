@@ -79,9 +79,9 @@
             var fgrSaudacoes = document.getElementById("saudacoes");
             fgrSaudacoes.onclick = function ()
             {
-                alert("test");
+                //alert("test");
                 document.getElementById("inpCategoria").value = 0;
-                document.getElementById("frmCategorias").submit;
+                document.getElementById("frmCategorias").submit();
             }
         </script>
     </body>

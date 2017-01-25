@@ -1,5 +1,6 @@
 <?php
-    echo $_POST["categoria"];
+    include "array_videos.php";
+    $categoria = $_POST["categoria"];
 ?>
 <html lang="pt-br">
     <head>
@@ -24,7 +25,8 @@
             </nav>
             <h1>VÍDEOS</h1>
         </header>
-
+        <div>
+        </div>
         <footer id="rodape">
             <figure>
                 <a href="http://icomp.ufam.edu.br/site/" target="_blank">
