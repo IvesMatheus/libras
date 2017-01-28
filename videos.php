@@ -1,6 +1,9 @@
-<?php
+ <?php
     include "array_videos.php";
     $categoria = $_POST["categoria"];
+
+    session_start();
+    $_SESSION["indice_video"] = 0;
 ?>
 <html lang="pt-br">
     <head>
@@ -25,7 +28,16 @@
             </nav>
             <h1>VÍDEOS</h1>
         </header>
-        <div>
+        <div id="video_principal">
+            <div id="video_anterior" class="video_anterior">
+                <img id="anterior" src="img/anterior.jpg" />
+            </div>
+            <div id="video">asd</div>
+            <div id="video_proximo" class="video_anterior">
+                <img id="proximo" src="img/proximo.jpg" />
+            </div>
+        </div>
+        <div id="outros_videos">
         </div>
         <footer id="rodape">
             <figure>
@@ -38,4 +50,22 @@
             </figure>
         </footer>
     </body>
+    <script type="text/javascript">
+        var video = document.getElementById("video");
+        video.innerHTML = '<?= $videos[$categoria][$_SESSION['indice_video']]."<br><h1>".$titulos[$categoria][$_SESSION['indice_video']]."</h1>" ?>';
+
+        var proximo = document.getElementById("proximo");
+        proximo.onclick = function ()
+        {
+            "<?php $_SESSION['indice_video']++; ?>";
+            video.innerHTML = '<?= $videos[$categoria][$_SESSION['indice_video']]."<br><h1>".$titulos[$categoria][$_SESSION['indice_video']]."</h1>" ?>';
+        }
+
+        var anterior = document.getElementById("anterior");
+        anterior.onclick = function ()
+        {
+            "<?php $_SESSION['indice_video']--; ?>";
+            video.innerHTML = '<?= $videos[$categoria][$_SESSION['indice_video']]."<br><h1>".$titulos[$categoria][$_SESSION['indice_video']]."</h1>" ?>';
+        }
+    </script>
 </html>

@@ -20,7 +20,7 @@ header#cabecalho
 header#cabecalho_menor
 {
     width: 100%;
-    height: 50%;
+    height: 60%;
     background-color: #FFA75E;
     box-sizing: border-box;
 }
@@ -280,9 +280,11 @@ figure#handtalk_fig
 
 footer
 {
+    /*width: 100%;*/
     margin: 150px 50px 50px 50px;
     border-top: 1px solid #888;
     float:left;
+    /*box-sizing: border-box;*/
 }
 
 footer#rodape figure
@@ -294,6 +296,7 @@ footer#rodape figure
     box-sizing: border-box;
     margin-left: 25%;
     margin-top: 50px;
+    /*box-sizing: border-box;*/
 }
 
 footer#rodape img
@@ -303,6 +306,7 @@ footer#rodape img
     min-height: 20%;
     margin-left: 50px;
     margin-right: 50px;
+    /*box-sizing: border-box;*/
     /*float:left;*/
 }
 
@@ -439,3 +443,55 @@ div.itens_menu figcaption
     transition: opacity 1s;
     box-sizing: border-box;
 }
+
+/**/
+
+div#video_principal
+{
+    width: 100%;
+    height: 400px;
+    box-sizing: border-box;
+}
+
+div#video
+{
+    width: 60%;
+    height: 100%;
+    float: left;
+    padding-left: 8%;
+    margin-top: 70px;
+    box-sizing: border-box;
+    /*align-items: center;*/
+}
+
+div#video h1
+{
+    color: black;
+    padding-left: 220px;
+    /*padding-left: 8px;*/
+    /*text-align: center;*/
+}
+
+div.video_anterior
+{
+    /*margin: 5%;*/
+    width: 20%;
+    height: 100%;
+    margin-top: 120px;
+    float:left;
+    box-sizing: border-box;
+}
+
+div.video_anterior img
+{
+    width: 50px;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+div#video_anterior img
+{
+    float: right;
+}
+
+/**/
